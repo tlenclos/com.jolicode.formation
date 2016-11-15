@@ -1,0 +1,24 @@
+<Alloy>
+	<NavigationWindow id="navigationIos">
+		<Window id="window" class="container">
+			<ListView id="list" defaultItemTemplate="templateStation">
+				<Templates>
+					<ItemTemplate name="templateStation">
+						<View class="row">
+							<Label bindId="title" class="title" />
+							<Label bindId="location" class="content" />
+						</View>
+					</ItemTemplate>
+				</Templates>
+
+				<ListSection>
+					<HeaderView>
+						<View backgroundColor="#000" height="40">
+							<Label color="#FFF">Velibs</Label>
+						</View>
+					</HeaderView>
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

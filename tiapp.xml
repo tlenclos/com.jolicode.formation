@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.jolicode.formation</id>
+  <name>com.jolicode.formation</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description/>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>0e90c91d-9646-4af9-9222-c7a682241f80</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  </android>
+  <mobileweb>
+    <precache></precache>
+    <splash>
+      <enabled>true</enabled>
+      <inline-css-images>true</inline-css-images>
+    </splash>
+    <theme>default</theme>
+  </mobileweb>
+  <modules>
+    <module platform="commonjs">ti.cloud</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+    <target device="mobileweb">true</target>
+    <target device="windows">true</target>
+  </deployment-targets>
+  <sdk-version>5.3.0.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
+  <property name="appc-app-id" type="string">5829c5a13d24d05d636b043c</property>
+  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-development" type="string">9p2ImeHkGdTElpAwxfyItluntZRKL8m7</property>
+  <property name="acs-oauth-key-development" type="string">T8WdGO84GszcNY6L8VphEeR2YuUmuhrh</property>
+  <property name="acs-api-key-development" type="string">nraOYqhSmqtB1GNgAHgzIiuHticsc3uL</property>
+  <property name="acs-username-development" type="string">appc_app_user_dev</property>
+  <property name="acs-password-development" type="string">QJIYSKWCjP4yEEJOBG</property>
+  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-production" type="string">ncXrbtgK4DNGyar71zuQRyrtfA4y67pB</property>
+  <property name="acs-oauth-key-production" type="string">kbV7c1Ysn7biU4NVU1A89SriYXjPyPNx</property>
+  <property name="acs-api-key-production" type="string">7iUG1QfBo1m2q1JUL7oVDl6vhX6zxz3z</property>
+  <property name="acs-username-production" type="string">appc_app_user</property>
+  <property name="acs-password-production" type="string">uCnaxxyjRrExCjhygJ</property>
+  <property name="appc-org-id" type="string">100001274</property>
+  <property name="appc-creator-user-id" type="string">80dfd5d0-145e-40a2-9dde-7f51dff51e8a</property>
+</ti:app>

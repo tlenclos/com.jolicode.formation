@@ -1,0 +1,34 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"ItemTemplate": {
+    height: Ti.UI.SIZE,
+}
+
+".title": {
+    font: {
+        fontWeight: "bold",
+        fontSize: 16
+    },
+    width: Ti.UI.FILL,
+    top: 5,
+    left: 10,
+}
+
+".content": {
+    width: Ti.UI.FILL,
+    bottom: 5,
+    left: 10,
+}
+
+".row": {
+    layout: "vertical",
+    height: Ti.UI.SIZE,
+}
+
+".row-unpublished": {
+    layout: "vertical",
+    backgroundColor: "#db5353",
+    height: Ti.UI.SIZE,
+}
