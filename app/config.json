@@ -1,6 +1,6 @@
 {
 	"global": {
-		"velibApi": "http://opendata.paris.fr/api/records/1.0/search/?dataset=stations-velib-disponibilites-en-temps-reel&facet=banking&facet=bonus&facet=status&facet=contract_name"
+		"velibApi": "http://opendata.paris.fr/api/records/1.0/search/?dataset=stations-velib-disponibilites-en-temps-reel"
 	},
 	"env:development": {},
 	"env:test": {},

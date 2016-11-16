@@ -1,6 +1,10 @@
 <Alloy>
 	<NavigationWindow id="navigationIos">
 		<Window id="window" class="container">
+			<RightNavButton platform="ios">
+				<Button id="mapBtn" title="Map" />
+			</RightNavButton>
+
 			<ListView id="list" defaultItemTemplate="templateStation">
 				<Templates>
 					<ItemTemplate name="templateStation">
